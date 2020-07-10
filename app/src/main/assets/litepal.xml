@@ -1,0 +1,11 @@
+<litepal>
+    <dbname value="cool_weather"/>
+
+    <version value="3"/>
+
+    <list>
+        <mapping class="com.example.guyi.db.Province"/>
+        <mapping class="com.example.guyi.db.City"/>
+        <mapping class="com.example.guyi.db.County"/>
+    </list>
+</litepal>
