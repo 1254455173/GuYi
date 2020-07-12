@@ -21,7 +21,7 @@
                 android:id="@+id/userPhoto"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/banana" />
+                android:src="@mipmap/guyi_icon_bg" />
 
         </LinearLayout>
 

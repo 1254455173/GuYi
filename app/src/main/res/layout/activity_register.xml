@@ -11,11 +11,22 @@
     android:background="@drawable/bg">
 
 
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/activity_register_top"
+        android:layout_centerInParent="true"
+        android:text="注册"
+        android:background="#22000000"/>
+
     <LinearLayout
         android:id="@+id/activity_register_top"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_marginTop="10dp"
@@ -29,7 +40,7 @@
                 android:id="@+id/register_userPhoto"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/banana" />
+                android:src="@mipmap/guyi_icon_bg" />
 
         </LinearLayout>
 
@@ -124,14 +135,5 @@
 
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/register_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/activity_register_top"
-        android:layout_centerInParent="true"
-        android:text="注册"
-        android:background="#22000000"/>
 
 </RelativeLayout>
